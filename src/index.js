@@ -10,6 +10,6 @@
 
 export default {
 	async fetch(request, env, ctx) {
-		return new Response("Hello Wrangler!");
+		return new Response("Today is Sunday Nov 22, 2026!");
 	},
 };
